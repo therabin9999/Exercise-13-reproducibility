@@ -1,0 +1,12 @@
+[workspace]
+authors = ["therabin9999 <rzr0096@auburn.edu>"]
+channels = ["conda-forge"]
+name = "Exercise-13-reproducibility"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = "3.14.*"
+marimo = ">=0.25.1,<0.26"
